@@ -14,11 +14,6 @@ title: "@chamerling - OW2Con 2011 - Documentation"
 - Some external SOAP Web services
 
 ## Scenario
-The goal is to show on to build an almost complete Cloud-aware SOA stack using Open source artifacts provided by PetalsLink and OW2. The scenario is quite simple:
-
-1. Foo
-2. Bar
-3. blah!
 
 ## Howtos
 ### Petals Master
@@ -30,11 +25,10 @@ Petals DSB is available at XXX. Once downloaded, unzip and launch the startup.sh
 ### Petals BPM
 
 ### DSB Manager
-The DSB Manager is a Play! powered application. Follow the application instructions at https://github.com/chamerling/dsbmanager-webapp to clone it and start it.
+The DSB Manager is a Play! powered application. Follow the application instructions at [https://github.com/chamerling/dsbmanager-webapp](https://github.com/chamerling/dsbmanager-webapp) to clone it and start it.
 
-## URLs
+## Useful URLs
 
-- Master base URL : 
-- Petals BPM:
+- Master base URL : http://HOST:8323/petals-master-1.0/petals-master/
+- Petals BPM :
 - Petals DSB Master Connection service: http://localhost:7600/petals/ws/MasterConnectionService 
-http://chamerling.org
