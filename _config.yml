@@ -1,0 +1,16 @@
+markdown: rdiscount
+pygments: true
+permalink: /posts/:title
+auto: true
+rdiscount:
+  extensions: [smart]
+gravatar: 123
+#url: http://quickhubapp.com
+url: http://localhost:4000
+feedburner: christophehamerling
+#ga: UA-26468797-1
+#disqus: quickhubapp
+twitter: chamerling
+title: OW2Con 2011
+subtitle: Christophe Hamerling OW2Con 2011 Page
+author: Christophe Hamerling

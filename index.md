@@ -1,19 +1,14 @@
-# Architecture
-## Modules
+---
+layout: layout
+title: "@chamerling - OW2Con 2011"
+---
 
-- Petals DSB 1.0-SNAPSHOT : Distributed Service Bus
-- Petals Master 1.0 : Governance Tool
-- Petals BPM : SaaS Business Process Editor
-- DSB Manager : SaaS Monitoring and Management Console for Petals DSB
-- Some external SOAP Web services
+#Petals BPM & the Cloud
 
-## Scenario
-The goal is to show on to build an almost complete Cloud-aware SOA stack using Open source artifacts provided by PetalsLink and OW2. The scenario is quite simple:
+>All the services are moving to the Cloud, so are business processes. In this talk, we will show how to create collaborative business processes using an open source SaaS BPMN Editor. But designing business processes is not enough, why not running them in the Cloud? We will see that we can rely on a completely Cloud-aware SOA software infrastructure combining several open sources solutions such as a Service Bus and IaaS framework. The resulting ‘Cloud Service Bus’ allows the integration of in-house services in order to benefit from Cloud-based features such as elasticity, load balancing, service clustering and migration. This Cloud Service Bus will serve as the runtime basis of the business processes producing a Petals Cloud Stack solution. All in the Cloud, all open source!
 
-1. Foo
-2. Bar
-3. blah!
+#Slides
+>Coming next...
 
-## URLs
-
-http://chamerling.org
+#?
+>This site is intended to give all the information about the talk I gave at OW2Con 2011 plus description and resources for the associated demonstration. Feedback and questions at [@chamerling](http://twitter.com/chamerling), thanks.
