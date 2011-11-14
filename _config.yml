@@ -5,8 +5,8 @@ auto: true
 rdiscount:
   extensions: [smart]
 gravatar: 123
-#url: http://quickhubapp.com
-url: http://localhost:4000
+url: http://chamerling.github.com/ow2con2011/
+#url: http://localhost:4000
 feedburner: christophehamerling
 #ga: UA-26468797-1
 #disqus: quickhubapp
