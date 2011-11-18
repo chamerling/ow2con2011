@@ -3,7 +3,6 @@
  */
 package org.chamerling.ow2con2011.services;
 
-import javax.jws.WebMethod;
 import javax.jws.WebService;
 
 /**
@@ -11,8 +10,6 @@ import javax.jws.WebService;
  *
  */
 @WebService
-public interface HotelService {
-
-	@WebMethod
-	void book();
+public interface BankService {
+	void pay();
 }

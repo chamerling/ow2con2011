@@ -11,7 +11,7 @@ import javax.jws.WebService;
  *
  */
 @WebService
-public interface RentalService {
+public interface RentService {
 	
 	@WebMethod
 	void rentCar();

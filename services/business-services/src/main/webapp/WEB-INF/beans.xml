@@ -18,4 +18,14 @@
 		implementor="org.chamerling.ow2con2011.services.WeatherServiceImpl"
 		address="/WeatherService" />
 
+	<jaxws:endpoint id="bank"
+		implementor="org.chamerling.ow2con2011.services.BankServiceImpl"
+		address="/BankService" />
+
+	<jaxws:endpoint id="rent"
+		implementor="org.chamerling.ow2con2011.services.RentServiceImpl"
+		address="/RentService" />
+
+	<jaxws:endpoint id="bpm"
+		implementor="org.chamerling.ow2con2011.bpm.BPMServiceImpl" address="/BPMService" />
 </beans>
