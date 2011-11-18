@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?><wsdl:definitions name="BPMServiceImplService" targetNamespace="http://bpm.ow2con2011.chamerling.org/" xmlns:ns1="http://schemas.xmlsoap.org/soap/http" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://bpm.ow2con2011.chamerling.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <wsdl:types>
+<xs:schema elementFormDefault="unqualified" targetNamespace="http://bpm.ow2con2011.chamerling.org/" version="1.0" xmlns:tns="http://bpm.ow2con2011.chamerling.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="process" type="tns:process"/>
+<xs:element name="processResponse" type="tns:processResponse"/>
+<xs:complexType name="process">
+    <xs:sequence/>
+  </xs:complexType>
+<xs:complexType name="processResponse">
+    <xs:sequence/>
+  </xs:complexType>
+</xs:schema>
+  </wsdl:types>
+  <wsdl:message name="processResponse">
+    <wsdl:part element="tns:processResponse" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="process">
+    <wsdl:part element="tns:process" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:portType name="BPMService">
+    <wsdl:operation name="process">
+      <wsdl:input message="tns:process" name="process">
+    </wsdl:input>
+      <wsdl:output message="tns:processResponse" name="processResponse">
+    </wsdl:output>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BPMServiceImplServiceSoapBinding" type="tns:BPMService">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="process">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="process">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="processResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="BPMServiceImplService">
+    <wsdl:port binding="tns:BPMServiceImplServiceSoapBinding" name="BPMServiceImplPort">
+      <soap:address location="http://localhost:9080/ow2con2011business/BPMService"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
