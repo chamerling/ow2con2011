@@ -43,22 +43,22 @@ It is assumed that you have a Tomcat Web application container or equivalent ins
 
 ### Petals DSB
 
-1. Petals DSB is available at [https://github.com/downloads/chamerling/ow2con2011/](https://github.com/downloads/chamerling/ow2con2011/)
+1. Petals DSB is available at [http://research.petalslink.org/display/petalsdsb/](http://research.petalslink.org/display/petalsdsb/ "PetalsDSB Overview - PetalsDSB - Petalslink Research") [https://github.com/downloads/chamerling/ow2con2011/](https://github.com/downloads/chamerling/ow2con2011/)
 2. Once downloaded, unzip, go to *bin* folder and launch the *startup.sh -C* script.
 
 ### Petals BPM
 
-1. Petals BPM is available for download at [https://github.com/downloads/chamerling/ow2con2011/](https://github.com/downloads/chamerling/ow2con2011/).
-2. You must deploy it in the Web application container. Once deployed, access to Petals BPM at [http://localhost:8080/petalsbpm](http://localhost:8080/petalsbpm).
+1. Petals BPM is available for download at  [https://github.com/downloads/chamerling/ow2con2011/](https://github.com/downloads/chamerling/ow2con2011/).
+2. You must deploy it in the Web application container. Once deployed, access to Petals BPM at [http://localhost:8080/petalsbpm](http://localhost:8080/dsb-bpmn-deployer-client-1.0-SNAPSHOT/).
 
 ### DSB Manager
-The DSB Manager is a Play! powered application. Follow the application instructions at [https://github.com/chamerling/dsbmanager-webapp](https://github.com/chamerling/dsbmanager-webapp) to clone it and start it. Once started, the DSB Management application is available at [http://localhost:9000/](http://localhost:9000/).
+The DSB Manager is a Play! powered application. Follow the application instructions at [https://github.com/chamerling/dsbmanager-webapp](https://github.com/chamerling/dsbmanager-webapp) to clone it and start it. Once started, the DSB Management application is available at [http://localhost:9000/](http://localhost:9002/).
 
 ## Some Useful URLs
 
 - Petals Master URL : [http://localhost:8323/petals-master-1.0/](http://localhost:8323/petals-master-1.0/)
 - Petals Master connection service : 
-- Petals BPM :
+- Petals BPM : [http://localhost:8080/dsb-bpmn-deployer-client-1.0-SNAPSHOT/](http://localhost:8080/dsb-bpmn-deployer-client-1.0-SNAPSHOT/)
 - Petals DSB Master Connection service: [http://localhost:7600/petals/ws/MasterConnectionService](http://localhost:7600/petals/ws/MasterConnectionService)
 - Petals DSB deployment URL (to be used in Petals BPM) : [http://localhost:7600/petals/ws](http://localhost:7600/petals/ws)
 - Petals DSB kernel management URL : [http://localhost:7600/petals/ws/](http://localhost:7600/petals/ws/)
