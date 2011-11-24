@@ -43,7 +43,7 @@ It is assumed that you have a Tomcat Web application container or equivalent ins
 
 ### Petals DSB
 
-1. Petals DSB is available at [http://research.petalslink.org/display/petalsdsb/](http://research.petalslink.org/display/petalsdsb/ "PetalsDSB Overview - PetalsDSB - Petalslink Research") [https://github.com/downloads/chamerling/ow2con2011/](https://github.com/downloads/chamerling/ow2con2011/)
+1. Petals DSB is available at [http://research.petalslink.org/display/petalsdsb/](http://research.petalslink.org/display/petalsdsb/ "PetalsDSB Overview - PetalsDSB - Petalslink Research")
 2. Once downloaded, unzip, go to *bin* folder and launch the *startup.sh -C* script.
 
 ### Petals BPM
