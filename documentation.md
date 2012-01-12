@@ -3,7 +3,6 @@ layout: layout
 title: "@chamerling - OW2Con 2011 - Documentation"
 ---
 
-
 # Documentation
 ## Modules
 
@@ -20,9 +19,6 @@ title: "@chamerling - OW2Con 2011 - Documentation"
 > In the demo, we are going to create a BPM process in the Petals BPM process editor and then deploy it on a service oriented environment provided by Petals DSB. In order to achieve this, we use the Petals Master Governance solution, which can be seen as an advanced service registry, to search and use services at design time. These services are not just simple artefacts but real services connected to the service bus. The process itself is then deployed on a runtime engine and exposed as a service by the bus.
 
 > In the better case, we will be able to run the process and monitor it with the DSB management console ;)
-
-### Let's do it with some slides...
-**TODO**
 
 ### Where is the Cloud?
 
